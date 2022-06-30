@@ -4,7 +4,7 @@ A tiny library that implements declarative postgres function definitions for Dja
 
 ## Requirements
 
--   Python >= 3.6
+-   Python >= 3.7
 -   Django >= 3.2
 
 ## Usage

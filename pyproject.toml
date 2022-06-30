@@ -8,9 +8,15 @@ readme = "README.md"
 packages = [{include = "django_pg_ddl_extras"}]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = ">= 3.7"
 Django = ">= 3.2"
 
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.6.0"
+flake8 = "^4.0.1"
+mypy = "^0.961"
+pytest = "^7.1.2"
 
 [build-system]
 requires = ["poetry-core"]
