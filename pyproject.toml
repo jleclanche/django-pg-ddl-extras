@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-pg-ddl-extras"
+version = "0.1.0"
+description = "Postgres declarative functions for Django"
+authors = ["Jerome Leclanche <jerome@leclan.ch>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_pg_ddl_extras"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Django = ">= 3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
